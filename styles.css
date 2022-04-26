@@ -2,23 +2,18 @@
     color: gray;
 }
 
-header ul {
+#main-nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: gray;
+}
+
+#main-nav li {
     list-style: none;
 }
 
-ul li {
-    list-style: none;
-    flex-direction: row;
-    justify-content: space-between
+#main-nav a {
+    color: gray;
+    text-decoration: none;
 }
-
-.port-nav {
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-
