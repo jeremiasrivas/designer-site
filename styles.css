@@ -9,9 +9,16 @@ header ul {
     list-style: none;
 }
 
-.ul-port ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+ul li {
     list-style: none;
+    flex-direction: row;
+    justify-content: space-between
 }
+
+.port-nav {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
